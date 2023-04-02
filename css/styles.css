@@ -9,19 +9,16 @@
 
 
 
-
-
-
 }
    /* index.html */
-.bodyy {
+.bbody {
          font-family: "Roboto", sans-serif;
          color: var(--addone);
          background-color: var(--bodyy);
 
 }
 
-.logoone {
+.logoo {
          font-family: "Raleway", sans-serif;
          font-weight: 800;
          font-size: 18px;
@@ -40,12 +37,12 @@
          text-decoration: none;
 }
 
-.list {
+.lisst {
          list-style: none;
 
 }
 
-.but {
+.butt {
          font-weight: 500;
          line-height: 1.5;
          letter-spacing: 0.02em;
@@ -53,15 +50,15 @@
 
 }
 
-.but:focus {
+.butt:focus {
          color: var(--but);
 }
 
-.but:hover {
+.butt:hover {
          color: var(--but);
 }
 
-.add {
+.addres {
          font-style: normal;
 
 }
@@ -82,12 +79,12 @@
 }
 
 /* Hero */
-.secone {
+.sectione {
          background-color: var(--logotwo);
 
 }
 
-.hsecone {
+.hsectione {
          font-size: 56px;
          line-height: 1.07;
          text-align: center;
@@ -96,7 +93,7 @@
 
 }
 
-.butone {
+.but {
          background-color: var(--logoone);
          font-family: "Roboto", sans-serif;
          font-weight: 500;
@@ -108,11 +105,11 @@
 
 }
 
-.butone:focus {
+.but:focus {
          background-color: var(--but);
 }
 
-.butone:hover {
+.but:hover {
          background-color: var(--but);
 }
 /*Benefits*/
@@ -128,14 +125,14 @@
          color: var(--logotwo);
 }
 
-.psectwo {
+.sectwoo {
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: var(--addone);
 
 }
 /*What are we doing*/
-.secthree {
+.sectionthree {
 
 }
 
@@ -149,7 +146,7 @@
 
 }
 /*Our Team*/
-.secfour {
+.sectionfour {
          background-color: var(--sect);
 }
 
@@ -207,13 +204,13 @@
 }
 
 /* portfolio.html */
-.bodyyy {
+.bbody {
          font-family: "Roboto", sans-serif;
          color: #434455;
          background-color: #ffff;
 }
 /* Hero */
-.butall {
+.but {
          font-family: "Roboto", sans-serif;
          font-weight: 500;
          font-size: 16px;
@@ -225,12 +222,12 @@
 
 }
 
-.butall:focus {
+.but:focus {
          color: var(--bodyy);
          background-color: var(--but);
 }
 
-.butall:hover {
+.but:hover {
          color: var(--bodyy);
          background-color: var(--but)
 }
