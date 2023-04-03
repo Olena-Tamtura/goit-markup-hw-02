@@ -1,268 +1,262 @@
 :root {
-         --bbody: #fff;
-         --logoo: #4d5ae5;
-         --logotwo: #ffffff;
-         --but: #404BBF;
-         --addone: #434455;
-         --addonehf: #404bbf;
-         --sect: #F4F4FD;
+   --bodyy: #fff;
+   --logoone: #4d5ae5;
+   --logotwo: #2e2f42;
+   --but: #404BBF;
+   --addone: #434455;
+   --addonehf: #404bbf;
+   --sect: #F4F4FD;
+
+
+
 
 
 
 }
-   /* index.html */
-.bbody {
-         font-family: "Roboto", sans-serif;
-         color: var(--addone);
-         background-color: var(--bodyy);
+
+.bodyy {
+   font-family: "Roboto", sans-serif;
+   color: var(--addone);
+   background-color: var(--bodyy);
 
 }
 
-.logoo {
-         font-family: "Raleway", sans-serif;
-         font-weight: 800;
-         font-size: 18px;
-         line-height: 1.17;
-         letter-spacing: 0.03em;
-         text-transform: uppercase;
-         color: var(--logoo);
+.logoone {
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--logoone);
 }
 
 .logotwo {
-         color: var(--logotwo);
+   color: var(--logotwo);
 
 }
 
 .link {
-         text-decoration: none;
+   text-decoration: none;
 }
 
 .list {
-         list-style: none;
+   list-style: none;
 
 }
 
 .but {
-         font-weight: 500;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--logotwo);
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
 
 }
 
 .but:focus {
-         color: var(--but);
+   color: var(--but);
 }
 
 .but:hover {
-         color: var(--but);
+   color: var(--but);
 }
 
-.addres {
-         font-style: normal;
+.add {
+   font-style: normal;
 
 }
 
 .addone {
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--addon);
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
 
 }
 
 .addone:hover {
-         color: var(--addonehf);
+   color: var(--addonehf);
 }
 
 .addone:focus {
-         color: var(--addonehf);
+   color: var(--addonehf);
 }
 
 /* Hero */
-.sectione {
-         background-color: var(--logotwo);
+
+.secone {
+   background-color: var(--logotwo);
 
 }
 
-.hsectione {
-         font-size: 56px;
-         line-height: 1.07;
-         text-align: center;
-         letter-spacing: 0.02em;
-         color: var(--bodyy);
+.hsecone {
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--bodyy);
 
 }
 
-.but {
-         background-color: var(--logoone);
-         font-family: "Roboto", sans-serif;
-         font-weight: 500;
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.04em;
-         color: var(--bodyy);
-         cursor: pointer;
+.butone {
+   background-color: var(--logoone);
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--bodyy);
+   cursor: pointer;
 
 }
 
-.but:focus {
-         background-color: var(--but);
+.butone:focus {
+   background-color: var(--but);
 }
 
-.but:hover {
-         background-color: var(--but);
+.butone:hover {
+   background-color: var(--but);
 }
-/*Benefits*/
-.sectw {
 
-}
+/* Benefits */
+
+.sectwo {}
 
 .htwosectwo {
-         font-weight: 500;
-         font-size: 20px;
-         line-height: 1.2;
-         letter-spacing: 0.02em;
-         color: var(--logotwo);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
 }
 
-.sectwoo {
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--addone);
+.psectwo {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
 
 }
-/*What are we doing*/
-.sectionthree {
 
-}
+/* What are we doing */
+
+.secthree {}
 
 .htwosecthree {
-         font-size: 36px;
-         line-height: 1.11;
-         text-align: center;
-         letter-spacing: 0.02em;
-         text-transform: capitalize;
-         color: var(--logotwo);
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--logotwo);
 
 }
-/*Our Team*/
-.sectionfour {
-         background-color: var(--sect);
+
+/* Our Team */
+
+.secfour {
+   background-color: var(--sect);
 }
 
 .htwosecfour {
-         font-size: 36px;
-         line-height: 1.11;
-         text-align: center;
-         letter-spacing: 0.02em;
-         text-transform: capitalize;
-         color: #2e2f42;
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
 }
 
 .lisecfour {
-         background-color: var(--bodyy);
+   background-color: var(--bodyy);
 
 }
 
 .hthreesecfour {
-         font-weight: 500;
-         font-size: 20px;
-         line-height: 1.2;
-         letter-spacing: 0.02em;
-         color: var(--logotwo);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
 
 }
 
-.endsecfour {
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--addone);
+.psecfour {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
 }
 
-
-
-/*Footer*/
+/* Footer */
 .footer {
-         background-color: var(--logotwo);
+   background-color: var(--logotwo);
 
 }
 
-.footerlogoo {
-         font-family: "Raleway", sans-serif;
-         font-weight: 800;
-         font-size: 18px;
-         line-height: 1.17;
-         letter-spacing: 0.03em;
-         text-transform: uppercase;
-         color: #4d5ae5;
+.footerlogoone {
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
 
 }
 
 .footerlogotwo {
-         color: #f4f4fd;
+   color: #f4f4fd;
 }
 
-/* portfolio.html */
-.bbody {
-         font-family: "Roboto", sans-serif;
-         color: #434455;
-         background-color: #ffff;
+/* Portfolio */
+.bodyyy {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #ffff;
 }
-/* Hero */
-.but {
-         font-family: "Roboto", sans-serif;
-         font-weight: 500;
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.04em;
-         color: var(--logoone);
-         background-color: var(--sect);
-         cursor: pointer;
+
+.butall {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--logoone);
+   background-color: var(--sect);
+   cursor: pointer;
 
 }
 
-.but:focus {
-         color: var(--bodyy);
-         background-color: var(--but);
+.butall:focus {
+   color: var(--bodyy);
+   background-color: var(--but);
 }
 
-.but:hover {
-         color: var(--bodyy);
-         background-color: var(--but)
+.butall:hover {
+   color: var(--bodyy);
+   background-color: var(--but)
 }
 
-.imgp {
-
-}
+.imgp {}
 
 .liportfolio {
-         font-weight: 500;
-         font-size: 20px;
-         line-height: 1.2;
-         letter-spacing: 0.02em;
-         color: var(--logotwo);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
 
 }
 
 .pportfolio {
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: var(--addone);
-}
-/* Footer */
-.footer {
-         color: var(--sect);
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
 }
 
-
-
-
-
-
-
-
+.pfooter {
+   color: var(--sect);
+}
 
 
 
