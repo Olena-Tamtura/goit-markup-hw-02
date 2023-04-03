@@ -1,7 +1,7 @@
 :root {
          --bbody: #fff;
          --logoo: #4d5ae5;
-         --logotwo: #2e2f42;
+         --logotwo: #ffffff;
          --but: #404BBF;
          --addone: #434455;
          --addonehf: #404bbf;
@@ -25,7 +25,7 @@
          line-height: 1.17;
          letter-spacing: 0.03em;
          text-transform: uppercase;
-         color: var(--logoone);
+         color: var(--logoo);
 }
 
 .logotwo {
@@ -37,7 +37,7 @@
          text-decoration: none;
 }
 
-.lisst {
+.list {
          list-style: none;
 
 }
@@ -66,7 +66,7 @@
 .addone {
          line-height: 1.5;
          letter-spacing: 0.02em;
-         color: var(--addone);
+         color: var(--addon);
 
 }
 
