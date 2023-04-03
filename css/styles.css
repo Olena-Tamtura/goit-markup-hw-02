@@ -1,6 +1,6 @@
 :root {
-         --bodyy: #fff;
-         --logoone: #4d5ae5;
+         --bbody: #fff;
+         --logoo: #4d5ae5;
          --logotwo: #2e2f42;
          --but: #404BBF;
          --addone: #434455;
@@ -42,7 +42,7 @@
 
 }
 
-.butt {
+.but {
          font-weight: 500;
          line-height: 1.5;
          letter-spacing: 0.02em;
@@ -50,11 +50,11 @@
 
 }
 
-.butt:focus {
+.but:focus {
          color: var(--but);
 }
 
-.butt:hover {
+.but:hover {
          color: var(--but);
 }
 
@@ -113,7 +113,7 @@
          background-color: var(--but);
 }
 /*Benefits*/
-.sectwo {
+.sectw {
 
 }
 
@@ -173,7 +173,7 @@
 
 }
 
-.psecfour {
+.endsecfour {
          font-size: 16px;
          line-height: 1.5;
          letter-spacing: 0.02em;
@@ -182,13 +182,13 @@
 
 
 
-/* Footer */
+/*Footer*/
 .footer {
          background-color: var(--logotwo);
 
 }
 
-.footerlogoone {
+.footerlogoo {
          font-family: "Raleway", sans-serif;
          font-weight: 800;
          font-size: 18px;
@@ -251,8 +251,8 @@
          letter-spacing: 0.02em;
          color: var(--addone);
 }
-/* PFooter */
-.pfooter {
+/* Footer */
+.footer {
          color: var(--sect);
 }
 
