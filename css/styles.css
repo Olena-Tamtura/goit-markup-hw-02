@@ -93,7 +93,7 @@
 
 }
 
-.butone {
+.button {
    background-color: var(--logoone);
    font-family: "Roboto", sans-serif;
    font-weight: 500;
@@ -126,6 +126,7 @@
 }
 
 .psectwo {
+   font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--addone);
@@ -189,7 +190,7 @@
 }
 
 .footerlogoone {
-   font-family: "Raleway", sans-serif;
+   font-family: "Raleway","sans-serif";
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
