@@ -105,11 +105,11 @@
 
 }
 
-.butone:focus {
+.button:focus {
    background-color: var(--but);
 }
 
-.butone:hover {
+.button:hover {
    background-color: var(--but);
 }
 
