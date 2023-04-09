@@ -134,7 +134,7 @@
 
 /* What are we doing */
 
-.secthree {}
+.secthree { }
 
 .htwosecthree {
    font-size: 36px;
@@ -250,7 +250,7 @@
    color: var(--addone);
 }
 
-.pfooter {
+.ppfooter {
    color: var(--sect);
 }
 
