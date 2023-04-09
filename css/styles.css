@@ -25,11 +25,12 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--logoone);
+   background-color:var(--logotwo); 
 }
 
 .logotwo {
    color: var(--logotwo);
-
+   
 }
 
 .link {
@@ -190,18 +191,20 @@
 }
 
 .footerlogoone {
-   font-family: "Raleway","sans-serif";
+   font-family: "Raleway", sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
+   background-color: var(--logotwo);
 
 }
 
 .footerlogotwo {
-   color: #f4f4fd;
+   color: #4d5ae5;
+   
 }
 
 /* Portfolio */
