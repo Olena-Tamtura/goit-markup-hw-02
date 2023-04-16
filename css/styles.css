@@ -1,6 +1,6 @@
 :root {
    --bodyy: #fff;
-   --logoone: #4d5ae5;
+   --logoone: #4D5AE5;;
    --logotwo: #2e2f42;
    --but: #404BBF;
    --addone: #434455;
@@ -25,7 +25,7 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--logoone);
-   background-color:var(--logotwo); 
+   background-color:var(--bodyy); 
 }
 
 .logotwo {
@@ -50,13 +50,10 @@
 
 }
 
-.but:focus {
+.but:focus, :hover {
    color: var(--but);
 }
 
-.but:hover {
-   color: var(--but);
-}
 
 .add {
    font-style: normal;
@@ -70,22 +67,18 @@
 
 }
 
-.addone:hover {
-   color: var(--addonehf);
-}
-
-.addone:focus {
+.addone:hover, focus {
    color: var(--addonehf);
 }
 
 /* Hero */
 
-.secone {
+.hero {
    background-color: var(--logotwo);
 
 }
 
-.hsecone {
+.hhero {
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
@@ -106,19 +99,16 @@
 
 }
 
-.button:focus {
+.button:focus, hover {
    background-color: var(--but);
 }
 
-.button:hover {
-   background-color: var(--but);
-}
 
 /* Benefits */
 
-.sectwo {}
+.benefits {}
 
-.htwosectwo {
+.hbenefits {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -126,7 +116,7 @@
    color: var(--logotwo);
 }
 
-.psectwo {
+.text {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -136,9 +126,9 @@
 
 /* What are we doing */
 
-.secthree { }
+.doing { }
 
-.htwosecthree {
+.hdoing {
    font-size: 36px;
    line-height: 1.11;
    text-align: center;
@@ -150,11 +140,11 @@
 
 /* Our Team */
 
-.secfour {
+.team {
    background-color: var(--sect);
 }
 
-.htwosecfour {
+.hteam {
    font-size: 36px;
    line-height: 1.11;
    text-align: center;
@@ -163,12 +153,12 @@
    color: #2e2f42;
 }
 
-.lisecfour {
+.listteam {
    background-color: var(--bodyy);
 
 }
 
-.hthreesecfour {
+.htextteam {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -177,7 +167,7 @@
 
 }
 
-.psecfour {
+.textteam {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -223,17 +213,11 @@
    color: var(--logoone);
    background-color: var(--sect);
    cursor: pointer;
-
 }
 
-.butall:focus {
+.butall:focus, hover {
    color: var(--bodyy);
    background-color: var(--but);
-}
-
-.butall:hover {
-   color: var(--bodyy);
-   background-color: var(--but)
 }
 
 .imgp {}
@@ -250,8 +234,9 @@
 .pportfolio {
    font-size: 16px;
    line-height: 1.5;
+   font-weight: 400;
    letter-spacing: 0.02em;
-   color: var(--addone);
+   color: var(--sect);
 }
 
 
