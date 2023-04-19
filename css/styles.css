@@ -50,9 +50,15 @@
 
 }
 
-.but:hover, focus {
+.but:focus {
    color: var(--but);
 }
+
+.but:hover {
+color: var(--but);
+}
+   
+   
 
 
 .add {
@@ -67,9 +73,14 @@
 
 }
 
-.addone:hover, focus {
+.addone:hover {
    color: var(--addonehf);
 }
+
+.addone:focus {
+color: var(--addonehf);
+}
+   
 
 /* Hero */
 
@@ -99,10 +110,13 @@
 
 }
 
-.button:hover, focus {
+.button:focus {
    background-color: var(--but);
 }
 
+.button:hover {
+   background-color: var(--but);
+}
 
 /* Benefits */
 
@@ -215,11 +229,15 @@
    cursor: pointer;
 }
 
-.butall:hover, focus {
+.butall:focus {
    color: var(--bodyy);
    background-color: var(--but);
 }
 
+.butall:hover {
+   color: var(--bodyy);
+   background-color: var(--but);
+}
 .imgp {}
 
 .liportfolio {
