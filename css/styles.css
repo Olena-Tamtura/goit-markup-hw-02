@@ -50,7 +50,7 @@
 
 }
 
-.but:focus, hover {
+.but:hover, :focus {
    color: var(--but);
 }
 
@@ -67,7 +67,7 @@
 
 }
 
-.addone:hover, focus {
+.addone:hover, :focus {
    color: var(--addonehf);
 }
 
@@ -99,7 +99,7 @@
 
 }
 
-.button:hover, focus {
+.button:hover, :focus {
    background-color: var(--but);
 }
 
